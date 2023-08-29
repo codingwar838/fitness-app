@@ -1,0 +1,89 @@
+/******************** GENERAL RESET ********************/
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0; 
+  box-sizing: inherit;
+} 
+
+html,
+body {
+  height: 100%;
+}
+
+/*********************** UTILITY CLASSES **************************/
+.d-flex {
+  display: flex;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+/****************************************** COMPONENTS STYLING ********************************/
+ 
+/********* Container ***********/
+.container {
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/********** Button *************/
+.button {
+  padding: 10px 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100vmax;
+  color: #fff;
+  background-color: #a151f1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(161, 81, 241, 0.7);
+}
+
+/********** Navbar **********/
+.navbar {
+  width: 100%;
+  background-color: rgb(255, 246, 246);
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #840984;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #800080;
+  text-decoration: none;
+}
+
+
